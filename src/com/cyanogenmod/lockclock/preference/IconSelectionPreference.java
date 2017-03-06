@@ -95,6 +95,8 @@ public class IconSelectionPreference extends DialogPreference implements
                 R.drawable.weather_28),
         new IconSetDescriptor("vclouds", R.string.weather_icons_vclouds,
                 R.drawable.weather_vclouds_28)
+        new IconSetDescriptor("magical", R.string.weather_icons_magical,
+                R.drawable.weather_magical_28),
     };
 
     private static final IntentFilter PACKAGE_CHANGE_FILTER = new IntentFilter();
